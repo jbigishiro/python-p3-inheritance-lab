@@ -12,4 +12,4 @@ class Teacher(User):
         self.knowledge = ["Math", "Science", "History"]  # Example knowledge list
 
     def teach(self):
-        return self.knowledge[0]  # Teaching the first item in the knowledge list
+        return random.choice(self.knowledge)  # select randomly in the knowledge list
